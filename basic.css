@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    text-decoration: none;
+}
+.main{
+    width: 50%;
+    height: 100%;
+
+}
+.container-fluid{
+    height: 100vh;
+}
+.calculator__display{
+    width:95%;
+    border:1px solid black;
+    padding:5px 7px;
+    text-align:right;
+    border-radius:4px;
+}
+.bg-gradient{
+   background-color: rgb(106, 228, 169)!important;
+}
+@media (max-width:740px) {
+    .container-fluid,.main{
+        height: 100%;
+        width: 100%;
+    }
+    .btn{
+        width: 24%;
+    }
+    .col-sm-6{
+        width: 46%;
+    }
+}
